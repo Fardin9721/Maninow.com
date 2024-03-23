@@ -1,1 +1,56 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{
+    font-family: "Lato", sans-serif;
+}
+.btn {
+    color: #fff;
+    background-color: blueviolet;
+    border: navajowhite;
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+/* Fonts imports */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:wght@300;400;500;700;900&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+
+/* Start Header Area */
+.header_area {
+    background-color: #fff;
+    margin-top: 50px;
+    position: sticky;
+    top: 0;
+}
+.nav_logo h3{
+    font-size: 35px;
+    font-weight: 800;
+}
+.navber_area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_area ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    align-items: center;
+}
+.nav_area ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+}
+.nav_area ul li a:hover{
+    color: blueviolet;
+}
+/* End Header Area */
