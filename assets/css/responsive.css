@@ -1,6 +1,12 @@
 @media(max-width:576px){
     .container{
-        width: 90%;
+        width: 95%;
+    }
+    .section_padding{
+        padding: 20px 0;
+    }
+    .header_area{
+        margin-top: 10px;
     }
     .nav_area {
         display: none;
@@ -8,12 +14,18 @@
     .nav_logo img{
         width: 80%;
     }
+    .mobil_nav{
+        display: block;
+    }
     .baner {
         display: block;
     }
     .bader_title {
         width: 100%;
         margin-bottom: 50px;
+    }
+    .bader_title h1{
+        margin-top: 0;
     }
     .service_card_area{
         display: block;
@@ -23,5 +35,14 @@
     }
     .forget{
         text-align: center;
+    }
+    .about_c1 {
+        margin-left: 100px;
+    }
+    .about_card{
+        display: inline-block;
+    }
+    .about_card_text h4 {
+        margin-top: 10px;
     }
 }
