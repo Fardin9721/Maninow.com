@@ -5,6 +5,9 @@
     .nav_area {
         display: none;
     }
+    .nav_logo img{
+        width: 80%;
+    }
     .baner {
         display: block;
     }
