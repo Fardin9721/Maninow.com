@@ -1,0 +1,24 @@
+@media(max-width:576px){
+    .container{
+        width: 90%;
+    }
+    .nav_area {
+        display: none;
+    }
+    .baner {
+        display: block;
+    }
+    .bader_title {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .service_card_area{
+        display: block;
+    }
+    .service_card{
+        margin-bottom: 40px;
+    }
+    .forget{
+        text-align: center;
+    }
+}
