@@ -3,6 +3,9 @@
 body{
     font-family: "Lato", sans-serif;
 }
+.section_padding{
+    padding: 50px 0;
+}
 .btn {
     color: #fff;
     background-color: blueviolet;
@@ -54,3 +57,47 @@ body{
     color: blueviolet;
 }
 /* End Header Area */
+
+/* Start Baner Area */
+.baner_area{
+    
+}
+.baner{
+    display: flex;
+    justify-content: space-around;
+}
+.baner_form {
+    background-color: palegoldenrod;
+    padding: 35px 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+.baner_form h4 {
+    font-weight: 600;
+    font-size: 20px;
+}
+.baner_form p{
+    font-size: 14px;
+    padding-top: 15px;
+}
+.baner_form input {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #fff;
+}
+.forget {
+    text-align: end;
+    margin-top: -16px;
+}
+.baner_form i {
+    margin: 0px 14px;
+    font-size: 30px;
+}
+.baner_form button{}
+.baner_form a {
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+}
+/* End Baner Area */
