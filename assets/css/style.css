@@ -92,6 +92,11 @@ body{
 /* End Header Area */
 
 /* Start Baner Area */
+.baner_area{
+    background-image: url(../images/maninow_baner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .baner {
     display: flex;
     justify-content: space-around;
@@ -117,6 +122,7 @@ body{
     padding: 35px 40px;
     text-align: center;
     border-radius: 20px;
+    box-shadow: 1px 1px 6px;
 }
 .baner_form h4 {
     font-weight: 600;
@@ -154,7 +160,6 @@ body{
     justify-content: space-between;
 }
 .service {
-    background-color: aliceblue;
     padding: 40px 0;
     border-radius: 15px;
 }
@@ -196,7 +201,7 @@ body{
 .about_card{
     display: flex;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .about_card img {
     margin-right: 30px;
@@ -287,3 +292,105 @@ body{
     grid-row: span 2;
 }
 /* End Gallery Area */
+
+/* Start CEO area */
+.ceo_area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ceo_title{
+    width: 100%;
+}
+.ceo_title p{}
+.ceo_title h1 {
+    font-size: 52px;
+    color: black;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 15px;
+}
+.alie {
+    display: flex;
+    justify-content: end;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.ceo_details{
+    width: 100%;
+}
+.ceo_details p {
+    width: 80%;
+    margin: 27px 0;
+}
+.ceo_img img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: 2px solid #cf5eed;
+}
+.ceo_intro{
+    width: 28%;
+}
+.ceo_intro h4{}
+.ceo_intro p{
+    margin: 5px 0;
+}
+.ceo_intro img{
+    width: 60%;
+}
+/* End CEO area */
+
+/* Start Subscribe Area */
+.subs_btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.sbtion-btn {
+    padding: 15px 25px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    font-weight: 800;
+}
+.sub_act {
+    background-color: #b985e9;
+}
+.sub_btn_cen {
+    border: 2px solid #cbcbcb;
+    border-radius: 30px;
+    padding: 3px 1px;
+}
+.subtion_card_zon {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.subtion_card {
+    padding: 50px 45px;
+    box-shadow: 1px 1px 5px #ddd;
+    margin-bottom: 40px;
+}
+.subtion_card p {
+    font-size: 14px;
+    padding: 5px 0;
+}
+.subtion_card h4 {
+    font-size: 40px;
+    margin: 15px 0;
+}
+.subtion_card i {
+    background-color: yellow;
+    margin-right: 5px;
+}
+.subtion_card button{
+    margin-top: 16px;
+}
+.prices {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+/* End Subscribe Area */

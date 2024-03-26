@@ -72,6 +72,33 @@
         width: 100%;
     }
     .gallery_nav ul li a {
-        margin: 0 1px;
+        margin: 0 3px;
+        padding: 5px 5px;
+    }
+    .ceo_area {
+        display: block;
+    }
+    .ceo_title h1 {
+        font-size: 38px;
+    }
+    .ceo_details {
+        margin-top: 30px;
+    }
+    .ceo_details p{
+        width: 100%;
+    }
+    .alie{
+        margin-right: 0px;
+    }
+    .ceo_intro {
+        width: 35%;
+    }
+    .subtion_card_zon{
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+    .subtion_card {
+        margin: 50px 0;
     }
 }
