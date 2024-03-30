@@ -394,3 +394,86 @@ body{
     margin-bottom: 10px;
 }
 /* End Subscribe Area */
+
+/* Start Contact Area */
+.contact_area {
+    display: flex;
+    justify-content: space-between;
+}
+.contact_form{
+    width: 50%;
+}
+.contact_form h5{}
+.contact_form input {
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+}
+.contact_form button{}
+.contact_form textarea {
+    width: 90%;
+    border-radius: 10px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+}
+.contact_info{
+    width: 50%;
+}
+.contact_info h6 {
+    color: #b985e9;
+    font-size: 15px;
+    font-style: italic;
+}
+.contact_info h3 {
+    font-size: 32px;
+    color: #8d8d93;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.contact_info p {
+    line-height: 1.5;
+}
+.contact_card_area {
+    margin: 20px 0;
+    display: flex;
+}
+.contact_card{
+    display: flex;
+    margin-right: 40px;
+} 
+.contact_card i {
+    font-size: 30px;
+    color: #b985e9;
+    margin-right: 5px;
+}
+.sontact_sub{} 
+.sontact_sub h5 {
+    font-weight: 700;
+    font-size: 15px;
+}
+.sontact_sub p{} 
+.follow_area {
+    padding-top: 20px;
+}
+.follow_area h5 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.follow_area i {
+    color: #b985e9;
+    font-size: 30px;
+    margin-right: 10px;
+}
+/* End Contact Area */
+footer.footer {
+    background-color: #e1c0ff;
+    padding: 20px 0;
+}
+.footer_area {
+    text-align: center;
+}
+.footer_area img {
+    width: 10%;
+}
